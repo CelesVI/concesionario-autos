@@ -1,0 +1,9 @@
+<jsp:useBean id="guardarVehiculo" class="tpfinal2.ProgramaDB"/>
+	<jsp:getProperty name="guardarVehiculo" property="id"/> <br>
+	<jsp:getProperty name="guardarVehiculo" property="marca"/> <br>
+	<jsp:getProperty name="guardarVehiculo" property="modelo"/> <br>
+	<jsp:getProperty name="guardarVehiculo" property="año"/> <br>
+	<jsp:getProperty name="guardarVehiculo" property="motor"/> <br>
+	<jsp:getProperty name="guardarVehiculo" property="kilometraje"/> <br>
+	<jsp:getProperty name="guardarVehiculo" property="color"/> <br> 
+	<jsp:getProperty name="guardarVehiculo" property="precio"/> <br>
